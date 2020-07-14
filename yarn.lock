@@ -963,6 +963,18 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-10.1.0.tgz#f0950bba18819512d42f7197e56c518aa491cf18"
   integrity sha512-ij4wRiunFfaJxjB0BdrYHIH8FxBJpOwNPhhAcunlmPdXudL1WQV1qoP9un6JsEBAgQH+7UXyyjh0g7jTxXK6tg==
 
+"@gitgraph/core@1.4.5":
+  version "1.4.5"
+  resolved "https://registry.yarnpkg.com/@gitgraph/core/-/core-1.4.5.tgz#4c085413566a58f3b0d8cc22f27c785c354a9034"
+  integrity sha512-GFXJBfxPyHQOUmKtdlefozSAuQ/4xSg3QWsEJCK+y5YidQVxHWn4wLNUOPXoD7QDScvUOlJq8gOGTsVSpYQGoQ==
+
+"@gitgraph/react@^1.5.4":
+  version "1.5.4"
+  resolved "https://registry.yarnpkg.com/@gitgraph/react/-/react-1.5.4.tgz#081b799c1a2e6819301a1e1016425170d27caeb0"
+  integrity sha512-ClknLeAOdzOxbNW18B6ck8U/zrZau+ItD1SjIMT9VRSFe0BtpWrAFE16SR+0zvrc7rF4AK815itPSA/jCllB8w==
+  dependencies:
+    "@gitgraph/core" "1.4.5"
+
 "@hapi/address@2.x.x":
   version "2.1.4"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.4.tgz#5d67ed43f3fd41a69d4b9ff7b56e7c0d1d0a81e5"
@@ -10361,9 +10373,9 @@ websocket-driver@>=0.5.1:
     websocket-extensions ">=0.1.1"
 
 websocket-extensions@>=0.1.1:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.3.tgz#5d2ff22977003ec687a4b87073dfbbac146ccf29"
-  integrity sha512-nqHUnMXmBzT0w570r2JpJxfiSD1IzoI+HGVdd3aZ0yNi3ngvQ4jv1dtHt5VGxfI2yj5yqImPhOK4vmIh2xMbGg==
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/websocket-extensions/-/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
+  integrity sha512-OqedPIGOfsDlo31UNwYbCFMSaO9m9G/0faIHj5/dZFDMFqPTcx6UwqyOy3COEaEOg/9VsGIpdqn62W5KhoKSpg==
 
 whatwg-encoding@^1.0.1, whatwg-encoding@^1.0.3, whatwg-encoding@^1.0.5:
   version "1.0.5"
